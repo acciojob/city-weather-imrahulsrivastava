@@ -1,4 +1,4 @@
 {
-    "testRepo": "city-weather-solution",
-    "pathToFile": "cypress/integration/tests/test.spec.js"
+  "testRepo": "city-weather-solution",
+  "pathToFile": "cypress/integration/tests/test.spec.js"
 }
