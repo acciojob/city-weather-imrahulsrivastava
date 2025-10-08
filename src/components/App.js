@@ -28,7 +28,10 @@ const App = () => {
       })
       .then((data) => setData(data))
       .catch((err) => setError(err.message))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        setLoading(false);
+        setInputValue("");
+      });
   };
 
   const kelvinToFahrenheit = (k) => ((k - 273.15) * 9) / 5 + 32;
